@@ -1,10 +1,15 @@
-<html>
+
+<!DOCTYPE html>
+<!--[if lt IE 9]><html lang="en-US" class="oldie"><![endif]-->
+<!--[if (gte IE 9) | !(IE)]><!--><html lang="en-US" class="modern"><!--<![endif]-->
 <head>
-<title>Tutorial theme</title>
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+<meta charset="UTF-8" />
+<title>Tomorrow Entrepreneurs Club</title>
+
+<!-- Always force latest IE rendering engine & Chrome Frame -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<!-- Meta Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 </head>
-<body>
-<div id="wrapper">
-<div id="header">
-    <h1>HEADER</h1>
-</div>
