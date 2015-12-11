@@ -1,53 +1,39 @@
-body{ font-family:"Roboto", arial, sans-serif;}
-h1{ font-family:"Roboto", arial, sans-serif;}
-h2{ font-family:"Roboto", arial, sans-serif;}
-h3{ font-family:"Roboto", arial, sans-serif;}
-h4{ font-family:"Roboto", arial, sans-serif;}
-h5{ font-family:"Roboto", arial, sans-serif;}
-h6{ font-family:"Roboto", arial, sans-serif;}
-blockquote{ font-family:"Roboto", arial, sans-serif;}
-p{ font-family:"Roboto", arial, sans-serif;}
-li{ font-family:"Roboto", arial, sans-serif;}
-.entries .entry-title, .entries .entry-header, h2.title
-body{ font-family:"Roboto", arial, sans-serif;}
-blockquote{ font-family:"Roboto", arial, sans-serif;}
-p{ font-family:"Roboto", arial, sans-serif;}
-li{ font-family:"Roboto", arial, sans-serif;}
-<!-- fonts delivered by Wordpress Google Fonts, a plugin by Adrian3.com --><style>
-/* Theme Options Styling */
-body {font-family:'Lato', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;}
-h1, h2, h3, h4, h5, h6, .tagline, .sub-title, .menu a, .widget_pages, .widget_categories, .entry-meta, .entry-note, .read-more, #submit, .single .entry-content > p:first-of-type:first-letter, input#s, .widget_ti-about-site p, .comments .vcard, #respond label, .copyright, #wp-calendar tbody, .latest-reviews i, .score-box .total {font-family: 'Oswald', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif; font-weight:400;}
-.sub-menu ul li a:hover, .secondary-menu a:hover, .secondary-menu .current_page_item > a, .top-strip nav > ul > li:hover > a, .footer-sidebar .widget h3 {color:#1e73be !important;}
-#masthead .main-menu > ul > li.sub-hover > a:after{border-color:transparent transparent #1e73be;}
-#masthead .main-menu > ul > li{font-size:16px;}
-#masthead .main-menu .sub-menu{border-top-color:#1e73be;}
-.widget_ti_most_commented span i:after{border-top-color:#1e73be;border-left-color:#1e73be;}
-.slide-dock, .entry-image, .page-numbers .current, .link-pages span, .score-line span, .widget_ti_most_commented span {background-color:#1e73be;}
-.modern .posts-slider figure:before {background-color:#18191a;opacity:0.3;}
-.posts-slider:hover figure:before {opacity:0.5;}
-::selection {background-color:#1e73be;}
-::-moz-selection {background-color:#1e73be;}
-/* Custom CSS */
-.entries .entry-title, .entries .entry-header body {
-font-weight:500;
+*{
+	margin: 0;
+	padding: 0;
 }
-h1, h2, h3, h4, h5, h6, .tagline, .sub-title, .menu a, .widget_pages, .widget_categories, .entry-meta, .entry-note, .read-more, #submit, .single .entry-content > p:first-of-type:first-letter, input#s, .widget_ti-about-site p, .comments .vcard, #respond label, .copyright, #wp-calendar tbody, .latest-reviews i, .score-box .total{font-family: "Roboto", arial, sans-serif; font-weight:500}
-.widgetContainer {
-width:275px !important;}
 
-.posts-slider .entry-header a, .posts-slider .entry-header .entry-meta {
-color: #fff;
-font-size: 95;
+body{
+	
 }
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
+
+
+.header{
+	width: 100%;
+	height: 200px;
+	background-color: red;
+}
+
+.nav{
+	width: 100%;
+	height: 60px;
+	background-color: blue;
+}
+
+.slide{
+	width: 100%;
+	height: 300px;
+	background-color: yellow;
+}
+
+.content{
+	width: 100%;
+	height: 1200px;
+	background-color: #333;
+}
+
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: green;
 }
