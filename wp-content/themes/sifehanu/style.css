@@ -4,36 +4,359 @@
 }
 
 body{
+
+}
+
+/*css cho header*/
+.header{
+	width: 100%;
+	height: auto;
+}
+
+.top{
+	color: #8c919b;
+    background: #242628;
+}
+
+.top #searchform{
+	float: right;
+    border-style: dotted;
+    border-width: 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.top #searchform input{
+	padding: 0;
+	padding-left: 15px;
+    height: 40px;
+    border: none;
+    background: #000;
+    outline: none;
+}
+
+.top #searchform button{
+	background: none;
+	outline: none;
+}
+
+.dn-logo-top{
+	margin: 30px auto;
+}
+
+.dn-logo-top p{
+	font-family: "Roboto", arial, sans-serif;
+    font-weight: 500;
+    color: #8c919b;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/*het css cho header*/
+
+/*css cho nav*/
+.dn-nav-around{
+	border-top: 1px solid #000;
+    border-bottom: 3px solid #000;
+    margin-bottom: 20px;
+}
+
+.nav-ul{
+	list-style: none;
+	padding: 0;
+}
+
+.nav-ul li{
+	display: inline-block;
+	font-size: 16px;
+
+}
+
+.nav-ul li:after{
+	content: "/";
+    color: #d6d6d6;
+    font: normal 24px/24px Arial;
+    display: block;
+    float: left;
+    width: 6px;
+    margin-top: 18px;
+}
+
+.nav-ul li:last-child:after{
+	content: "";
+}
+
+.nav-ul li a{
+	padding: 18px 10px 15px 10px;
+    display: block;
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    float: left;
+}
+/*het css cho nav*/
+
+/*css cho slide*/
+
+.slide {
+    	position: relative;
+        height: 500px;
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 60px;
+}
+.swiper-container {
+        width: 100%;
+        height: 100%;
+}
+.swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+}
+.swiper-slide img{
+	width: 100%;
+}
+/*het css cho slide*/
+
+/*css cho content*/
+.content{
+	width: 100%;
+	height: auto;
+	margin-bottom: 35px;
 	
 }
 
-
-.header{
-	width: 100%;
-	height: 200px;
-	background-color: red;
+.content > div{
+	margin-bottom: 20px;
 }
 
-.nav{
+.news{
 	width: 100%;
-	height: 60px;
-	background-color: blue;
+	height: auto;
+}
+.news-header{
+	text-align: center;
+    margin-bottom: 30px;
 }
 
-.slide{
-	width: 100%;
-	height: 300px;
-	background-color: yellow;
+.new-title{
+	background: url("images/section-header.png") repeat-x 0 50%;
+	font-size: 50px;
+    line-height: 120%;
+    color: #000;
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
 }
 
-.content{
-	width: 100%;
-	height: 1200px;
-	background-color: #333;
+.new-title span{
+	display: inline-block;
+    background: #fff;
+    margin: 0 20px;
+    padding: 0 20px;
 }
 
+.sub-title{
+	font-family: "Roboto", arial, sans-serif;
+    font-weight: 500;
+    color: #8c919b;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.dn-entry-img{
+	display: block;
+	margin-bottom: 10px;
+	height: 220px;
+}
+
+.dn-entry-img img{
+	margin: 0 auto;
+}
+
+.dn-entry-header span{
+	display: inline-block;
+	font-family: "Roboto", arial, sans-serif;
+    font-weight: 500;
+    color: #8c919b;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.dn-entry-title{
+	margin: 5px 0;
+    line-height: 150%;
+    font-weight: 500;
+    font-family: "Roboto", arial, sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+.dn-entry-title a{
+	text-decoration: none;
+	color: #000;
+}
+
+.dn-entry-author{
+	display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: "Roboto", arial, sans-serif;
+    text-align: center;
+    color: #444;
+}
+.dn-entry-author a{
+	text-decoration: underline;
+	color: #000;
+	cursor: pointer;
+}
+
+.dn-entry-author a:hover{
+	text-decoration: none;
+}
+
+.dn-entry-summary p{
+	font-family: "Roboto", arial, sans-serif;
+	color: #444;	
+}
+/*het css cho content*/
+
+
+/*css cho footer*/
 .footer{
 	width: 100%;
-	height: 300px;
-	background-color: green;
+	height: auto;
+	position: relative;
+	color: #fff;
+
 }
+
+.footer>iframe{
+	width: 100%;
+	height: 300px;
+}
+
+.dn-region{
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: url(images/bg-transperancy.png);
+    padding: 50px 0 10px;
+}
+
+.dn-maps{
+	margin-top: 30px;
+}
+
+.dn-maps a{
+	color: #17aedf !important;
+    border: 1px solid #17aedf !important;
+    border-radius: 0 !important;
+    background: none !important;
+    transition: background 0.3s ease-in 0.1s !important; */
+    transition: all 0.3s ease-out 0.5s; 
+}
+
+.dn-maps a:hover{
+	color: #fff !important;
+    background: #17aedf !important;
+}
+
+.btn-close{
+	position: absolute;
+	top: 0;
+	left: 47%;
+	color: #17aedf !important;
+    border: 1px solid #17aedf !important;
+    border-radius: 0 !important;
+    background: none !important;
+    transition: background 0.3s ease-in 0.1s !important; 
+    transition: all 0.3s ease-out 0.5s; 
+    display: none;
+}
+.btn-close:hover{
+	color: #fff !important;
+    background: #17aedf !important;
+}
+
+.footer .video iframe{
+	width: 100%;
+	height: 250px;
+}
+/*het css cho footer*/
+
+@media (min-width: 1200px){
+.container {
+        width: 1100px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+.slide {
+        height: 399px;
+}
+}
+
+@media screen and (max-width: 960px){
+.slide {
+        height: 300px;
+}
+}
+
+@media screen and (max-width: 768px){
+.dn-entry-img{
+	height: auto;
+}
+
+.dn-logo-top{
+	display: none;
+}
+
+.dn-nav-around{
+	display: none;
+}
+}
+
+
+

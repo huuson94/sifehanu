@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--[if lt IE 9]><html lang="en-US" class="oldie"><![endif]-->
 <!--[if (gte IE 9) | !(IE)]><!--><html lang="en-US" class="modern"><!--<![endif]-->
@@ -7,8 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/swiper.min.css">
+	<script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/swiper.min.js"></script>
 <!-- Always force latest IE rendering engine & Chrome Frame -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
